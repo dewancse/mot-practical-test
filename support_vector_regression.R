@@ -27,5 +27,4 @@ ggplot() +
             colour = 'blue') +
   ggtitle('Number of crashes in New Zealand by Year (Support Vector Regression)') +
   xlab('Crash Year') +
-  ylab('Number of Crashes') +
-  ggsave("Support-Vector-Regression.png")
+  ylab('Number of Crashes')
