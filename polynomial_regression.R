@@ -34,5 +34,4 @@ ggplot() +
             colour = 'blue') +
   ggtitle('Number of crashes in New Zealand by Year (Polynomial Regression)') +
   xlab('Crash Year') +
-  ylab('Number of Crashes') +
-  ggsave("Polynomial-Regression.png")
+  ylab('Number of Crashes')
