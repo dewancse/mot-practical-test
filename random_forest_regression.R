@@ -11,7 +11,7 @@ setwd("~/Downloads/R Project/Ministry of Transport/ML Algorithms")
 dataset = read.csv('data.csv')
 
 # Fitting Random Forest Regression to the dataset
-regressor = randomForest(x = dataset[-2],
+regressor = randomForest(x = dataset[1],
                          y = dataset$NumberOfCrashes,
                          ntree = 500)
 
