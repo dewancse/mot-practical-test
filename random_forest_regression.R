@@ -26,5 +26,4 @@ ggplot() +
             colour = 'blue') +
   ggtitle('Number of crashes in New Zealand by Year (Random Forest Regression)') +
   xlab('Crash Year') +
-  ylab('Number of Crashes') +
-  ggsave("Random-Forest-Regression.png")
+  ylab('Number of Crashes')
