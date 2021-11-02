@@ -26,5 +26,4 @@ ggplot() +
             colour = 'blue') +
   ggtitle('Number of crashes in New Zealand by Year (Decision Tree Regression)') +
   xlab('Crash Year') +
-  ylab('Number of Crashes') +
-  ggsave("Decision-Tree-Regression.png")
+  ylab('Number of Crashes')
